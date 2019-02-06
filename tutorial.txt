@@ -1,0 +1,30 @@
+Cara install script
+
+1.Download aplikasi termux
+2.Buka lalu masukan perintah
+      pkg install python enter
+
+Lalu
+     pip install requests enter
+
+3.simpan polder ini di memory telepon
+4.lalu arahkan directory termux ke polder ini.
+Caranya
+   cd /storage/sdcard0/namapolder
+
+Atau
+
+   cd /storage/emulated/0/namapoldernya
+
+Namapolder difault adalah xlotpbiasa jika kalian ganti namanya ya sesuaikan
+
+5.Cara pakai
+Masukan perintah
+
+   python app.py
+
+Terakhir tinggal pilih nomor sesuai kehedak misalkan ingin minta otp ya masukan nomor 2 enter.
+
+Oke sekian dukung semut hanya dengan klik iklan di www.kumpul4semut.com terimakasih 
+
+Copyright 2018 kumpul4semut #hargai creator
