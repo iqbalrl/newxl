@@ -42,14 +42,6 @@ def lodprint(s):
         time.sleep(7.0/90)
 
 semut=(gt+"""
- #####  ####### #     # #     # ####### 
-#     # #       ##   ## #     #    #    
-#       #       # # # # #     #    #    
- #####  #####   #  #  # #     #    #    
-      # #       #     # #     #    #    
-#     # #       #     # #     #    #    
- #####  ####### #     #  #####     #    
- =================================
 """)
 l="Harap tunggu.."
 
@@ -90,25 +82,22 @@ def menu_1():
     po = str(input(p+"Masukan Kode Otp 👉 "))
     clear()
     print(semut)
-    print (p+" 1.Xtra waze 500")
-    print (p+" 2.Xtra waze 1000")
-    print (p+" 3.Xtra waze 2500")
-    print (p+" 4.Xtra 30 GB 11.900")
-    print (p+" 5.xtra combo lite")
-    print (p+" 6.Manual service id")
+    print (p+" 1.Xtra combo lite 5GB/29.900")
+    print (p+" 2.Xtra combo lite 9GB/49.900")
+    print (p+" 3.Xtra combo lite 17GB/79.900")
+    print (p+" 4.Xtra combo lite 25GB/99.900")
+    print (p+" 5.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
     if pkt == '1':
-        i = '8211369'
+        i = '8210883'
     elif pkt == '2':
-        i = '8211370'
+        i = '8210884'
     elif pkt == '3':
-        i ='8211371'
+        i = '8210885'
     elif pkt == '4':
-        i ='8110671'
+        i = '8210886'
     elif pkt == '5':
-        i ='8211472'
-    elif pkt == '6':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
